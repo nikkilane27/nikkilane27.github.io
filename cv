@@ -1,18 +1,24 @@
 <!doctype html>
 <html>
   <head>
-    cd repository
-git fetch origin
+  cd repository
+git checkout master
+# Switched to branch 'master'
+git pull origin master
 # remote: Counting objects: 92, done.
 # remote: Compressing objects: 100% (63/63), done.
 # remote: Total 68 (delta 41), reused 0 (delta 0)
-# Unpacking objects: 100% (68/68), done.
+# Receiving objects: 100% (424/424), 329.32 KiB | 178 KiB/s, done.
+# Resolving deltas: 100% (68/68), done.
 # From https://github.com/user/repo.git
-#  * [new branch]      gh-pages     -> origin/gh-pages
-
-git checkout gh-pages
-# Branch gh-pages set up to track remote branch gh-pages from origin.
-# Switched to a new branch 'gh-pages'
+#  * branch      master     -> FETCH_HEAD
+# Updating abc1234..def5678
+# Fast-forward
+# index.html                                     |  265 ++++
+# ...
+# 98 files changed, 18123 insertions(+), 1 deletion(-)
+# create mode 100644 index.html
+# ...
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
